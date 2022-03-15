@@ -3,17 +3,19 @@ body {
     /* height: 200%; */
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 20px;
 }
 
 .square {
     margin: 3%;
     display: inline-block;
+    border-radius: 10px;
 }
 
 .square img {
     width: 200px;
     height: 200px;
-    border: 10px;
+    border-radius: 20px;
 }
 
 .square:hover {
