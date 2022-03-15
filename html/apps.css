@@ -21,8 +21,8 @@ img {
 }
 
 .cards img {
-    width: 290px;
-    height: 155px;
+    width: 150px;
+    height: 150px;
 }
 
 .cards:hover {
