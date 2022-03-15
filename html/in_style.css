@@ -1,0 +1,22 @@
+body {
+    background-image: url("../img/back.jpg");
+    /* height: 200%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.square {
+    margin: 3%;
+    display: inline-block;
+}
+
+.square img {
+    width: 200px;
+    height: 200px;
+    border: 10px;
+}
+
+.square:hover {
+    transform: scale(1.2, 1.2);
+    transition-duration: 0.2s;
+}
