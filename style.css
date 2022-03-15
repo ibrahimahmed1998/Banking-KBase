@@ -26,10 +26,7 @@ img {
     height: 240px;
 }
 
-img:hover {
-    width: 450px;
-    height: 300px;
-    -webkit-transform: rotate(360deg);
-    /* Safari */
-    transform: rotate(360deg);
+.cards:hover {
+    transform: scale(1.2, 1.2);
+    transition-duration: 0.2s;
 }

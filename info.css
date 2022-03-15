@@ -2,8 +2,13 @@ body {
     direction: rtl;
 }
 
+.info .card-header {
+    background-color: rgba(0, 0, 0, .20);
+}
+
 .center-text {
     text-align: center;
+    /* justify-content: center; */
 }
 
 .info {
@@ -15,16 +20,19 @@ body {
     transform: scale(1.2, 1.2)
 }
 
-.card {
-    max-width: 20rem;
+li {
+    padding-bottom: 1%;
+}
+
+.card-body {
+    min-width: 21rem;
+    min-height: 20rem;
+    max-width: 21rem;
+    text-align: center;
 }
 
 .card-body:hover {
     background-color: yellow;
-}
-
-.header {
-    background-color: rgba(0, 0, 0, .20);
 }
 
 .header-red {
