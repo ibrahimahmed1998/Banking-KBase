@@ -23,8 +23,8 @@ img {
 }
 
 .cards img {
-    width: 400px;
-    height: 230px;
+    width: 300px;
+    height: 180px;
 }
 
 .cards:hover {
