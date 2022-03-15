@@ -1,0 +1,32 @@
+body {
+    direction: rtl;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.info {
+    display: inline-block;
+    margin: 1.5%;
+}
+
+.card:hover {
+    transform: scale(1.2, 1.2)
+}
+
+.card {
+    max-width: 20rem;
+}
+
+.card-body:hover {
+    background-color: yellow;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, .20);
+}
+
+.header-red {
+    background-color: rgba(236, 15, 15, 0.87);
+}
