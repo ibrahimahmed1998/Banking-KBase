@@ -1,19 +1,24 @@
+<!DOCTYPE html>
+
 <html>
 
 <head>
-    <link rel="stylesheet" href="in_style.css">
+    <link rel="stylesheet" href="in_style.css" type="text/css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    <style type="text/css">
+        table td,
+        th {
+            border: 1px solid black;
+        }
+    </style>
+
 </head>
 
 <body>
-
-    <div class="box">
-        <a class="button" href="#popup1">Let me Pop up</a>
-    </div>
-
 
     <div id="popup1" class="overlay">
         <div class="popup">
@@ -42,35 +47,242 @@
         </div>
     </div>
 
+    <div id="popup2" class="overlay">
+
+        <div class="popup">
+            <a class="close" href="#">&times;</a>
+            <br><br>
+
+            <div class="square" style="display:inline-block;">
+                <a href="#popup3"> <img src="..\img/br.jpg" alt=""></a>
+                <b>
+                    <center>اله فرع بنك مصر BR</center>
+                </b>
+            </div>
+
+            <div class="square" style="display:inline-block;">
+                <a href="#popup4"> <img src="..\img/Hub.jpg" alt=""></a>
+                <b>
+                    <center>اله بعيدة عن فرع بنك مصر Hub</center>
+                </b>
+            </div>
+
+            <div class="square" style="display:inline-block;">
+                <a href="#popup5"> <img src="..\img/other.png" alt=""></a>
+                <b>
+                    <center>بنوك أخري Other Banks</center>
+                </b>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div id="popup3" class="overlay">
+        <div class="popup">
+            <a class="close" href="#">&times;</a>
+            <br><br>
+            <h5>
+                Type: <b>Credit <b style="color: red;">OR</b> prepaid-payroll-debit</b> <br> Subject: <b>Roll</b>
+            </h5>
+            <h5>مدة الشكوي:
+                <span style="color: red;">خلال 5 ايام عمل</span>
+            </h5>
+            <h5>مصاريف الاعتراض:
+                <span style="color: red;">50 جنيه في صحة صرف المبلغ</span>
+            </h5>
+
+            <h5>محتوي الشكوي:</h5>
+            المبلغ /<br> رقم الحركة Trans ID /<br> التاريخ و الوقت / <br> رقم الالة/<br> رقم البطاقة بالكامل/
+            <br>
+            </p>
+            <h6 style="color: blue;">اضغط ctrl+shift الموجود بالجزء الايمن قبل ملئ البيانات</h6>
+            <h6 style="color: blue;">يتم عمل و توزيع الشكوي علي حساب العميل الا في حالة الكروت الائتمانية فقط </h6>
+        </div>
+    </div>
+
+    <!-- rooooooooooooooooooooooolllllllllllll -->
+    <div id="popup4" class="overlay">
+        <div class="popup">
+            <a class="close" href="#">&times;</a>
+            <br><br>
+            <h5>
+                Type: <b>Credit <b style="color: red;">OR</b> prepaid-payroll-debit</b> <br> Subject: <b>Roll-HUB</b>
+            </h5>
+            <h5>مدة الشكوي:
+                <span style="color: red;">خلال 5 ايام عمل</span>
+            </h5>
+            <h5>مصاريف الاعتراض:
+                <span style="color: red;">50 جنيه في صحة صرف المبلغ</span>
+            </h5>
+
+            <h5>محتوي الشكوي:</h5>
+            المبلغ /<br> رقم الحركة Trans ID /<br> التاريخ و الوقت / <br> رقم الالة/<br> رقم البطاقة بالكامل/
+            <br>
+            </p>
+            <h6 style="color: blue;">اضغط ctrl+shift الموجود بالجزء الايمن قبل ملئ البيانات</h6>
+            <h6 style="color: blue;">يتم عمل و توزيع الشكوي علي حساب العميل الا في حالة الكروت الائتمانية فقط </h6>
+        </div>
+    </div>
+
+    <div id="popup5" class="overlay">
+        <div class="popup">
+            <a class="close" href="#">&times;</a>
+            <br><br>
+            <h5>
+                <table>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Type</th>
+                    </tr>
+                    <tr>
+                        <td>Charge Back</td>
+                        <td>Credit</td>
+                    </tr>
+                    <tr>
+                        <td>Charge Back</td>
+                        <td>prepaid-payroll-debit</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            123 zero <br> 123 other
+                        </td>
+                        <td>Complains</td>
+                    </tr>
+                </table>
+
+            </h5>
+
+
+            <table>
+                <tr>
+                    <th>مدة الشكوي</th>
+                    <th>نوع البطاقة</th>
+                </tr>
+                <tr>
+                    <td>40 يوم</td>
+                    <td>Visa</td>
+                </tr>
+                <tr>
+                    <td>60 يوم</td>
+                    <td>MasterCard</td>
+                </tr>
+                <tr>
+                    <td>
+                        10 ايام عمل
+                    </td>
+                    <td>Meeza ميزة</td>
+                </tr>
+            </table>
+
+
+
+            <h5>مصاريف الاعتراض:
+                <br>
+                <span style="color: red;">50 جنيه في صحة صرف المبلغ</span> <br>
+                <span style="color: red;">10 جنيه بطاقات المرتبات</span>
+
+            </h5>
+
+            <table style="border: 1px, black;">
+                <tr>
+                    <h5>محتوي الشكوي:</h5>
+                    <td>
+
+
+
+                        المبلغ /<br> رقم الحركة Trans ID /<br> التاريخ و الوقت / <br> اسم البنك/<br> رقم البطاقة بالكامل/
+                        <br>في حالة وجود مستندات ترسل لفرع ( ) و رقم الفرع ( )
+                        <br>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+
+            <ul style="color: blue;">
+                <li>
+                    ملحوظة البطاقات الائتمانية لا يوجد لها 123
+                </li>
+                <li>
+                    كل أنواع كروت ميزة في حالة البنوك الاخري تسجل MEEZA CHAREG BACK
+                </li>
+
+                <li>
+                    اضغط ctrl+shift الموجود بالجزء الايمن قبل ملئ البيانات
+                </li>
+                <li>
+                    يتم عمل و توزيع الشكوي علي حساب العميل الا في حالة الكروت الائتمانية فقط
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <!-- ///////////////////////////////roll deboist//////////////////////////// -->
+
+    <div id="popup6" class="overlay">
+        <div class="popup">
+            <a class="close" href="#">&times;</a>
+            <br><br>
+            <h5>
+                Type: <b>Credit <b style="color: red;">OR</b> prepaid-payroll-debit</b> <br> Subject: <b>Roll-HUB</b>
+            </h5>
+            <h5>مدة الشكوي:
+                <span style="color: red;">خلال 5 ايام عمل</span>
+            </h5>
+            <h5>مصاريف الاعتراض:
+                <span style="color: red;">50 جنيه في صحة صرف المبلغ</span>
+            </h5>
+
+            <h5>محتوي الشكوي:</h5>
+            المبلغ /<br> رقم الحركة Trans ID /<br> التاريخ و الوقت / <br> رقم الالة/<br> رقم البطاقة بالكامل/
+            <br>
+            </p>
+            <h6 style="color: blue;">اضغط ctrl+shift الموجود بالجزء الايمن قبل ملئ البيانات</h6>
+            <h6 style="color: blue;">يتم عمل و توزيع الشكوي علي حساب العميل الا في حالة الكروت الائتمانية فقط </h6>
+        </div>
+    </div>
+
 
     <div class="square">
-        <a href=""> <img src="..\img/credit atm.webp" alt=""></a>
-        <b> <center>سحب وهمي   ATM</center></b>
+        <a href="#popup2"> <img src="..\img/credit atm.webp" alt=""></a>
+        <b>
+            <center>سحب وهمي ATM</center>
+        </b>
     </div>
 
     <div class="square">
-        <a href=".\html\credit.html"> <img src="..\img/deposit.jpg" alt="البطاقات الائتمانية"></a>
-        <b>  <center>ايداع Deposit ATM</center></b>
+        <a href="#popup6"> <img src="..\img/deposit.jpg" alt="البطاقات الائتمانية"></a>
+        <b>
+            <center>ايداع Deposit ATM</center>
+        </b>
     </div>
 
     <div class="square">
         <a href=""> <img src="..\img/POS.jpg" alt="البطاقة المدفوعة مقدما الانترنت"></a>
-        <b> <center>معاملات POS Machine</center></b>
+        <b>
+            <center>معاملات POS Machine</center>
+        </b>
     </div>
 
     <div class="square">
         <a href=""> <img src="..\img/credit_problem.webp" alt="البطاقة المدفوعة مقدما الانترنت"></a>
-        <b> <center>Credit بطاقات المشتريات</center></b>
+        <b>
+            <center>Credit بطاقات المشتريات</center>
+        </b>
     </div>
 
     <div class="square">
         <a href=""> <img src="..\img/loan.webp" alt="البطاقة المدفوعة مقدما الانترنت"></a>
-        <b> <center>Loans قروض</center></b>
+        <b>
+            <center>Loans قروض</center>
+        </b>
     </div>
 
     <div class="square">
         <a href=""> <img src="..\img/account.png" alt="البطاقة المدفوعة مقدما الانترنت"></a>
-        <b> <center>Accounts حسابات</center></b>
+        <b>
+            <center>Accounts حسابات</center>
+        </b>
     </div>
 
 
@@ -78,46 +290,53 @@
 
     <div class="square">
         <a href=""> <img src="..\img/moneytransfer.webp" alt="بطاقة ميزة"></a>
-        <b><center>Funds Transfer  حوالات </center></b>
+        <b>
+            <center>Funds Transfer حوالات </center>
+        </b>
     </div>
 
 
     <div class="square">
         <a href=""> <img src="..\img/callback.jpg" alt=""></a>
-        <b> <center>callback </center></b>
+        <b>
+            <center>callback </center>
+        </b>
     </div>
 
     <div class="square">
         <a href="#popup1"> <img src="..\img/bmonline.jpg" alt="بطاقات التيست"></a>
-        <b><center>BM Online الانترنت البنكي</center></b>
+        <b>
+            <center>BM Online الانترنت البنكي</center>
+        </b>
     </div>
 
     <div class="square">
         <a href="./html/complains.html"> <img src="..\img/wallet.png" alt="البطاقة المدفوعة مقدما الانترنت"></a>
-        <b> <center>Wallet محفظة بنك مصر</center></b>
+        <b>
+            <center>Wallet محفظة بنك مصر</center>
+        </b>
     </div>
 
     <div class="square">
         <a href="./html/complains.html"> <img src="..\img/ipn.jpg" alt="البطاقة المدفوعة مقدما الانترنت"></a>
-        <b> <center>IPN - Instapay </center></b>
+        <b>
+            <center>IPN - Instapay </center>
+        </b>
     </div>
 
     <div class="square">
         <a href="./html/complains.html"> <img src="..\img/branches.jpg" alt="البطاقة المدفوعة مقدما الانترنت"></a>
-        <b> <center>Branches فروع بنك مصر </center></b>
+        <b>
+            <center>Branches فروع بنك مصر </center>
+        </b>
     </div>
 
     <div class="square">
         <a href="./html/complains.html"> <img src="..\img/fraud.jpg" alt="البطاقة المدفوعة مقدما الانترنت"></a>
-        <b> <center>Fraud احتيال</center></b>
+        <b>
+            <center>Fraud احتيال</center>
+        </b>
     </div>
-
-
-
-
-
-
 </body>
-
 
 </html>

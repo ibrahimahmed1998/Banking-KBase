@@ -6,6 +6,18 @@ body {
     direction: rtl;
 }
 
+table,
+th,
+td {
+    border: 2px solid red;
+    border-collapse: collapse;
+    /* text-align: center; */
+}
+
+th {
+    background-color: yellow;
+}
+
 .square {
     margin: 3%;
     display: inline-block;
