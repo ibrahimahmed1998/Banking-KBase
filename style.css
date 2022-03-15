@@ -1,14 +1,11 @@
 body {
     background-image: url("./img/bkground.jpg");
-    /* height: 200%; */
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 img {
     border-style: none;
-    width: 20px;
-    height: 65px;
     -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
     transition: width 2s, height 2s, transform 0.1s;
     margin-bottom: 2%;
@@ -17,14 +14,15 @@ img {
 }
 
 .cards {
-    /* div */
-    margin: 3%;
+    padding-left: 1%;
+    padding-top: 1%;
+    margin: 1%;
     display: inline-block;
 }
 
 .cards img {
     width: 290px;
-    height: 170px;
+    height: 155px;
 }
 
 .cards:hover {
