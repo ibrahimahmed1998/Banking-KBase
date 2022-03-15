@@ -1,9 +1,9 @@
 body {
     background-image: url("../img/back.jpg");
+    background-opacity: 0.5;
     /* height: 200%; */
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 20px;
 }
 
 .square {
