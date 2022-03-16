@@ -1,0 +1,40 @@
+body {
+    direction: rtl;
+}
+
+.info .card-header {
+    background-color: rgba(0, 0, 0, .20);
+}
+
+.center-text {
+    text-align: center;
+    /* justify-content: center; */
+}
+
+.info {
+    display: inline-block;
+    margin: 1.5%;
+}
+
+.card:hover {
+    transform: scale(1.2, 1.2)
+}
+
+li {
+    padding-bottom: 1%;
+}
+
+.card-body {
+    min-width: 21rem;
+    min-height: 20rem;
+    max-width: 21rem;
+    text-align: center;
+}
+
+.card-body:hover {
+    background-color: yellow;
+}
+
+.header-red {
+    background-color: rgba(236, 15, 15, 0.87);
+}
