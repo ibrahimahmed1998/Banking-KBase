@@ -4,26 +4,16 @@ body {
 
 .info .card-header {
     background-color: rgba(0, 0, 0, .20);
-    border-radius: 5%;
 }
 
-.card-header {
-    border-radius: 5%;
-}
-
-.info .card .center-text {
+.center-text {
     text-align: center;
     /* justify-content: center; */
-    border-radius: 5%;
 }
 
 .info {
     display: inline-block;
     margin: 1.5%;
-}
-
-.card {
-    border-radius: 2%;
 }
 
 .card:hover {
